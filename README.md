@@ -83,8 +83,8 @@ In this project, you will build the retrieve data from a public api, add in a fa
 * [x ] Try and build it out first before you peek at the guided project. And *do not* copy/paste directly from the guided project!_
 
 ### Testing the Checkout Form
-* [ ] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
-* [ ] Fill out code necessary to test that that Checkout form renders without errors.
+* [x ] Run the test runner and ensure that `src/components/CheckoutForm.test.js` is correctly called.
+* [x ] Fill out code necessary to test that that Checkout form renders without errors.
 * [ ] Fill out code necessary to test that when all form inputs are filled with valid data, a success message appears.
 * [ ] Make sure the tests are passing, and make sure you can cause the tests to fail purposefully, so that you know the tests are truly working.
 
@@ -117,9 +117,18 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a class-based and a functional component?
+  - Class components uses class and extends
+  - Class components uses the render function
+  - state, props, and eventHandlers are all connected to "this"
 
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+  - componentWillMount - Just before the the component is mounted.
+  - componentDidUpdate - Anytime the component is updated after being mounted.
 
 3. Define stateful logic.
+  - Stateful logic is application logic related to the manipulation of data, such as hooks.
 
-4. What are the three step of creating a successful test? What is done in each phase? 
+4. What are the three step of creating a successful test? What is done in each phase?
+  - Arrange - Setup the react component we are testing.
+  - Act - Execute our behavior (if there is one).
+  - Assert - Extract the response element and check (if necessary) that it is what we expect it to be.
